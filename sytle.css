@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: lightgrey;
+    padding: 4px;
+}
+.header h1{
+  display: block;
+  font-size: 2em;
+  margin-top: 2px;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+main{
+    display: flex;
+}
+.fromcont{
+    border: 1px solid black;
+}
+.form{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 3px solid black;
+    height: 100%;
+}
+.form div{
+    /* Full Box */
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+}
+.form div div{
+    /* Circle Box */
+    height: 50px;
+    border: 1px solid black;
+    width: 50px;
+    display: flex;
+}
+.form div div div{
+    /* Circle */
+    height: 35px;
+    border: 1px solid black;
+    width: 35px;
+    border-radius: 35px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+/* form div input{
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+} */
+#sumbit{
+    width: 10vw;
+    align-self: center;
+    margin: 4px;
+}
+#pyout{
+    width: 70vw;
+    padding: 10px;
+    border: 3px solid black;
+    height: 100%;
+}
